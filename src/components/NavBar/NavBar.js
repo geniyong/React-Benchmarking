@@ -17,10 +17,10 @@ export default class NavBar extends Component {
   }
   render() {
     return (
-      <Navbar style={{background:"none", borderRadius:"0px"}}>
+      <Navbar style={{background:"none", borderRadius:"0px", marginBottom: "0px"}}>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#/">TechAri</a>
+            <a href="#/">TECHARI</a>
           </Navbar.Brand>
         </Navbar.Header>
         <Nav pullRight>
