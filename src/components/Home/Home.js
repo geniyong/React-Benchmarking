@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Stuff from "../Stuff";
 import Contact from "../Contact";
+import AutoPlaySlider from "../AutoPlaySlider";
 import SwipeableViews from 'react-swipeable-views';
 
 
@@ -36,14 +37,7 @@ export default class Home extends Component {
   render() {
     let reactSwipeEl;
     return (
-      <div>
-    <SwipeableViews enableMouseEvents>
-      <div style={Object.assign({}, styles.slide, styles.slide1)}>slide n°1</div>
-      <div style={Object.assign({}, styles.slide, styles.slide2)}>slide n°2</div>
-      <div style={Object.assign({}, styles.slide, styles.slide3)}>slide n°3</div>
-    </SwipeableViews>
-      </div>
-
+      <AutoPlaySlider />
     );
   }
 }
